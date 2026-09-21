@@ -43,6 +43,7 @@ initialize() {
 }
 
 choose_automation() {
+    return 0
     local vol_tmp="$TMPDIR/vol_key"
     local seconds="${1:-10}"
     local ge_pid=""
